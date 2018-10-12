@@ -1,0 +1,8 @@
+{
+  "name": "heroku-memory-game",
+  "version": "1.0.0",
+  "main": "index.php",
+  "repository": "https://github.com/PixelPerfectDev/heroku-memory-game.git",
+  "author": "PixelPerfectDev <joshbowdenconcepts@gmail.com>",
+  "license": "MIT"
+}
