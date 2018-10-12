@@ -4,5 +4,11 @@
   "main": "index.php",
   "repository": "https://github.com/PixelPerfectDev/heroku-memory-game.git",
   "author": "PixelPerfectDev <joshbowdenconcepts@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "harp": "^0.29.0"
+  },
+  "scripts": {
+    "start": "harp server --port $PORT"
+  }
 }
