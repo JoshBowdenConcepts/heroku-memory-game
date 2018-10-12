@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Matching Game</title>
+    <meta name="description" content="">
+    <meta name="author" content="Josh Bowden">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Roboto Font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <!-- Custom Styles -->
+    <link href="./styles/all.min.css" rel="stylesheet" />
+    <!-- jQuery CDN -->
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <!-- Custom JS -->
+    <script type="text/javascript" src="./scripts/all.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Matching Game</h1>
+      <div id="gui">
+        <div id="turns">
+          <!-- <i class="far fa-star"></i>
+          <i class="fas fa-star-half-alt"></i> -->
+          <div id="stars">
+
+          </div>
+          <p class="inline" id="turn">
+            0
+          </p>
+          <p class="inline">
+            Moves
+          </p>
+        </div>
+        <div id="restart">
+          <i class="fas fa-redo-alt"></i>
+        </div>
+        <div id="timer">
+          Timer: <span id="clock">0</span>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div id="game_container">
+        <div class="card">
+          <div class="cover">
+            <i class="hidden fas fa-binoculars"></i>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cover">
+            <i class="hidden fas fa-binoculars"></i>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cover">
+            <i class="hidden fas fa-bullhorn"></i>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cover">
+            <i class="hidden fas fa-bullhorn"></i>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cover">
+            <i class="hidden fas fa-anchor"></i>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cover">
+            <i class="hidden fas fa-anchor"></i>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cover">
+            <i class="hidden fas fa-crown"></i>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cover">
+            <i class="hidden fas fa-crown"></i>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cover">
+            <i class="hidden fas fa-feather-alt"></i>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cover">
+            <i class="hidden fas fa-feather-alt"></i>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cover">
+            <i class="hidden fas fa-headphones-alt"></i>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cover">
+            <i class="hidden fas fa-headphones-alt"></i>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cover">
+            <i class="hidden fab fa-sith"></i>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cover">
+            <i class="hidden fab fa-sith"></i>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cover">
+            <i class="hidden fas fa-volleyball-ball"></i>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cover">
+            <i class="hidden fas fa-volleyball-ball"></i>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div id="winner" class="absolute_center">
+        <div id="win-check">
+          <i class="fas fa-check"></i>
+        </div>
+        <h1>Congratulations! You Won!</h1>
+        <p>
+          With <span class="win-moves">17</span> moves and <span class="win-stars">1</span> stars.<br />Whooohooo!</p>
+        <button>Play Again</button>
+      </div>
+    </footer>
+  </body>
+</html>
